@@ -2,9 +2,57 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid a9e28604-8006-42a0-85f5-c1dddeb9dfef)
+	(uuid "a9e28604-8006-42a0-85f5-c1dddeb9dfef")
 	(paper "A4")
 	(lib_symbols)
+	(rectangle
+		(start 17.78 22.225)
+		(end 154.305 107.315)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3de22a32-47cc-4fef-8592-f8226eedae51")
+	)
+	(rectangle
+		(start 19.05 121.92)
+		(end 156.21 191.135)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6e1142a6-6d46-4fad-8101-37fcc2b048be")
+	)
+	(rectangle
+		(start 161.925 22.225)
+		(end 277.495 68.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e8146b5f-8148-4e99-b811-23c608737873")
+	)
+	(rectangle
+		(start 161.29 82.55)
+		(end 278.765 158.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fb978c25-c581-4fee-8222-c5579d589993")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
