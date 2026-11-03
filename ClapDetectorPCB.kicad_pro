@@ -524,7 +524,7 @@
       "GND": "rgb(8, 0, 255)",
       "VCC": "rgb(255, 2, 0)"
     },
-    "netclass_assignments": {},
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -656,7 +656,7 @@
         "uuid": "a9e28604-8006-42a0-85f5-c1dddeb9dfef"
       }
     ],
-    "used_designators": "",
+    "used_designators": "RV1-7,CN1,U1-13,D1-2,#PWR1-18,C1-11,R1-16,J1",
     "variants": []
   },
   "sheets": [
