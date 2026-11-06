@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.6,
-          "width": 3.1
+          "drill": 0.5,
+          "height": 0.85,
+          "width": 0.85
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -172,7 +172,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -184,7 +183,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -196,7 +194,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -656,7 +653,7 @@
         "uuid": "a9e28604-8006-42a0-85f5-c1dddeb9dfef"
       }
     ],
-    "used_designators": "RV1-7,CN1,U1-13,D1-2,#PWR1-18,C1-11,R1-16,J1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

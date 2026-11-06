@@ -4076,6 +4076,12 @@
 		(uuid "4419fca2-0faf-4f71-9aff-689456295500")
 	)
 	(junction
+		(at 53.34 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49857f66-fc44-4740-b464-3692b46f2b29")
+	)
+	(junction
 		(at 129.54 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4098,12 +4104,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80376758-25db-44e4-a7d4-d70f544c45b6")
-	)
-	(junction
-		(at 60.96 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ace1f50-ac7b-42a7-8172-4eb7f19ce89f")
 	)
 	(junction
 		(at 76.2 119.38)
@@ -4148,6 +4148,12 @@
 		(uuid "ad2c997c-7cb6-4935-beb9-7abec98d4d30")
 	)
 	(junction
+		(at 60.96 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b10a2379-cb77-4085-b62c-8dc9da57adf1")
+	)
+	(junction
 		(at 123.19 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4176,12 +4182,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1ed5c9e-70ff-4e32-aebf-46e1a5f01231")
-	)
-	(junction
-		(at 53.34 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6394491-46a7-46ae-90ab-dc45c2ee68ac")
 	)
 	(junction
 		(at 171.45 170.18)
@@ -4366,6 +4366,26 @@
 			(type default)
 		)
 		(uuid "2b624851-fdb8-476a-bae5-6cf23938d051")
+	)
+	(wire
+		(pts
+			(xy 60.96 228.6) (xy 60.96 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3071f14a-53a5-46db-9828-cbaf2b0b9d26")
+	)
+	(wire
+		(pts
+			(xy 41.91 217.17) (xy 53.34 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346cd1dc-f9a9-4951-853e-72c0860101ea")
 	)
 	(wire
 		(pts
@@ -4749,6 +4769,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 228.6) (xy 53.34 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fffd43-5a86-484f-972f-93c397946145")
+	)
+	(wire
+		(pts
 			(xy 182.88 115.57) (xy 182.88 118.11)
 		)
 		(stroke
@@ -4769,7 +4799,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 234.95) (xy 60.96 227.33)
+			(xy 60.96 234.95) (xy 60.96 228.6)
 		)
 		(stroke
 			(width 0)
@@ -4816,6 +4846,16 @@
 			(type default)
 		)
 		(uuid "b8d56342-9353-4256-9685-78699fddce18")
+	)
+	(wire
+		(pts
+			(xy 41.91 224.79) (xy 53.34 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c045ed05-80f8-43cb-8966-9ea175734329")
 	)
 	(wire
 		(pts
@@ -5523,7 +5563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 63.5 204.7748 0)
 			(hide yes)
 			(show_name no)
@@ -5605,7 +5645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 139.192 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -5841,7 +5881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 67.31 120.3452 0)
 			(hide yes)
 			(show_name no)
@@ -5891,7 +5931,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 223.52 0)
+		(at 41.91 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5902,7 +5942,7 @@
 		(fields_autoplaced yes)
 		(uuid "17abbb6f-c46c-4edf-9897-58f9148cba2d")
 		(property "Reference" "R1"
-			(at 55.88 222.2499 0)
+			(at 44.45 219.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5913,7 +5953,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 55.88 224.7899 0)
+			(at 44.45 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5923,8 +5963,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 51.562 223.52 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 40.132 220.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5935,7 +5975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 223.52 0)
+			(at 41.91 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5946,7 +5986,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 223.52 0)
+			(at 41.91 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6328,46 +6368,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "fde2a229-2f5a-487f-af46-70c0c56bf96e")
+			(uuid "fde2a229-2f5a-487f-af46-70c0c56bf96f")
 		)
 		(pin "5"
-			(uuid "8763c575-ab5a-43bd-879c-c4fae78f1063")
+			(uuid "8763c575-ab5a-43bd-879c-c4fae78f1064")
 		)
 		(pin "6"
-			(uuid "e2404bb7-23e4-465c-9a76-a3cb6ab7ae06")
+			(uuid "e2404bb7-23e4-465c-9a76-a3cb6ab7ae07")
 		)
 		(pin "8"
-			(uuid "9b87381b-e96d-405a-8604-82279f073e96")
+			(uuid "9b87381b-e96d-405a-8604-82279f073e97")
 		)
 		(pin "9"
-			(uuid "d08bd350-2aa1-452a-bc1b-24f23eb42bff")
+			(uuid "d08bd350-2aa1-452a-bc1b-24f23eb42c00")
 		)
 		(pin "10"
-			(uuid "21e5bf3b-156e-4b81-b864-a974f1af11b5")
+			(uuid "21e5bf3b-156e-4b81-b864-a974f1af11b6")
 		)
 		(pin "11"
-			(uuid "60993050-9111-4c68-b599-561837b879ca")
+			(uuid "60993050-9111-4c68-b599-561837b879cb")
 		)
 		(pin "12"
-			(uuid "e7e30333-5dd2-4bfc-bb02-7461c32b7270")
+			(uuid "e7e30333-5dd2-4bfc-bb02-7461c32b7271")
 		)
 		(pin "13"
-			(uuid "7366c90d-cacf-4183-b301-f835aaffe89a")
+			(uuid "7366c90d-cacf-4183-b301-f835aaffe89b")
 		)
 		(pin "7"
-			(uuid "06adb784-95c6-47f3-bd0b-7bf7229a378f")
+			(uuid "06adb784-95c6-47f3-bd0b-7bf7229a3790")
 		)
 		(pin "14"
-			(uuid "4556c288-d377-4e57-afe6-85619a307fb4")
+			(uuid "4556c288-d377-4e57-afe6-85619a307fb5")
 		)
 		(pin "1"
-			(uuid "e4521ac6-f2bd-48fb-aaff-30348d9e8586")
+			(uuid "e4521ac6-f2bd-48fb-aaff-30348d9e8587")
 		)
 		(pin "2"
-			(uuid "04c15b4a-d636-40ad-aa34-78661ffd2264")
+			(uuid "04c15b4a-d636-40ad-aa34-78661ffd2265")
 		)
 		(pin "3"
-			(uuid "7d733858-d7e7-42f3-96d5-85a5b05be198")
+			(uuid "7d733858-d7e7-42f3-96d5-85a5b05be199")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -6722,7 +6762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.282 229.87 90)
 			(hide yes)
 			(show_name no)
@@ -6960,7 +7000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 93.6752 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7488,7 +7528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 67.31 160.3248 0)
 			(hide yes)
 			(show_name no)
@@ -7568,7 +7608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 91.44 223.8248 0)
 			(hide yes)
 			(show_name no)
@@ -7726,7 +7766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 102.87 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -8093,7 +8133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 100.0252 127 0)
 			(hide yes)
 			(show_name no)
@@ -8175,7 +8215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 54.102 213.36 90)
 			(hide yes)
 			(show_name no)
@@ -8257,7 +8297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 42.672 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -8453,7 +8493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 170.18 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8569,7 +8609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 67.31 236.728 90)
 			(hide yes)
 			(show_name no)
@@ -8683,46 +8723,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "fde2a229-2f5a-487f-af46-70c0c56bf96e")
+			(uuid "fde2a229-2f5a-487f-af46-70c0c56bf970")
 		)
 		(pin "5"
-			(uuid "8763c575-ab5a-43bd-879c-c4fae78f1063")
+			(uuid "8763c575-ab5a-43bd-879c-c4fae78f1065")
 		)
 		(pin "6"
-			(uuid "e2404bb7-23e4-465c-9a76-a3cb6ab7ae06")
+			(uuid "e2404bb7-23e4-465c-9a76-a3cb6ab7ae08")
 		)
 		(pin "8"
-			(uuid "9b87381b-e96d-405a-8604-82279f073e96")
+			(uuid "9b87381b-e96d-405a-8604-82279f073e98")
 		)
 		(pin "9"
-			(uuid "d08bd350-2aa1-452a-bc1b-24f23eb42bff")
+			(uuid "d08bd350-2aa1-452a-bc1b-24f23eb42c01")
 		)
 		(pin "10"
-			(uuid "21e5bf3b-156e-4b81-b864-a974f1af11b5")
+			(uuid "21e5bf3b-156e-4b81-b864-a974f1af11b7")
 		)
 		(pin "11"
-			(uuid "60993050-9111-4c68-b599-561837b879ca")
+			(uuid "60993050-9111-4c68-b599-561837b879cc")
 		)
 		(pin "12"
-			(uuid "e7e30333-5dd2-4bfc-bb02-7461c32b7270")
+			(uuid "e7e30333-5dd2-4bfc-bb02-7461c32b7272")
 		)
 		(pin "13"
-			(uuid "7366c90d-cacf-4183-b301-f835aaffe89a")
+			(uuid "7366c90d-cacf-4183-b301-f835aaffe89c")
 		)
 		(pin "7"
-			(uuid "06adb784-95c6-47f3-bd0b-7bf7229a378f")
+			(uuid "06adb784-95c6-47f3-bd0b-7bf7229a3791")
 		)
 		(pin "14"
-			(uuid "4556c288-d377-4e57-afe6-85619a307fb4")
+			(uuid "4556c288-d377-4e57-afe6-85619a307fb6")
 		)
 		(pin "1"
-			(uuid "e4521ac6-f2bd-48fb-aaff-30348d9e8586")
+			(uuid "e4521ac6-f2bd-48fb-aaff-30348d9e8588")
 		)
 		(pin "2"
-			(uuid "04c15b4a-d636-40ad-aa34-78661ffd2264")
+			(uuid "04c15b4a-d636-40ad-aa34-78661ffd2266")
 		)
 		(pin "3"
-			(uuid "7d733858-d7e7-42f3-96d5-85a5b05be198")
+			(uuid "7d733858-d7e7-42f3-96d5-85a5b05be19a")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -8843,7 +8883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 170.18 117.1448 0)
 			(hide yes)
 			(show_name no)
@@ -8893,7 +8933,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 57.15 227.33 90)
+		(at 57.15 228.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8904,7 +8944,7 @@
 		(fields_autoplaced yes)
 		(uuid "7165f4ea-8e10-4dc0-b302-2715f4a8968f")
 		(property "Reference" "C1"
-			(at 57.15 219.71 90)
+			(at 57.15 220.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8914,7 +8954,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 57.15 222.25 90)
+			(at 57.15 223.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8923,8 +8963,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 60.96 226.3648 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 60.96 227.6348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8935,7 +8975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 227.33 0)
+			(at 57.15 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8946,7 +8986,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 227.33 0)
+			(at 57.15 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9037,46 +9077,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "2be0ed06-2004-47fb-a7d5-2fe320598649")
+			(uuid "2be0ed06-2004-47fb-a7d5-2fe32059864a")
 		)
 		(pin "2"
-			(uuid "e64111e6-1e7e-48de-bdde-8a69ca519148")
+			(uuid "e64111e6-1e7e-48de-bdde-8a69ca519149")
 		)
 		(pin "3"
-			(uuid "e6f6b4c7-2198-4e3f-b83b-bfaf86ca7f35")
+			(uuid "e6f6b4c7-2198-4e3f-b83b-bfaf86ca7f36")
 		)
 		(pin "4"
-			(uuid "8606163b-efc9-4c1b-8978-0c30abd92361")
+			(uuid "8606163b-efc9-4c1b-8978-0c30abd92362")
 		)
 		(pin "5"
-			(uuid "199811e3-d3c7-4b66-828d-22ae8195f7df")
+			(uuid "199811e3-d3c7-4b66-828d-22ae8195f7e0")
 		)
 		(pin "6"
-			(uuid "788d834f-bc53-4868-885a-c289d3f89757")
+			(uuid "788d834f-bc53-4868-885a-c289d3f89758")
 		)
 		(pin "8"
-			(uuid "df90ec4b-8d64-4435-8601-a00838bbb04e")
+			(uuid "df90ec4b-8d64-4435-8601-a00838bbb04f")
 		)
 		(pin "9"
-			(uuid "5a435da7-cb74-4d1a-8c49-69880a03b150")
+			(uuid "5a435da7-cb74-4d1a-8c49-69880a03b151")
 		)
 		(pin "10"
-			(uuid "e4dd2d3f-1656-4327-8803-6e1aee00b329")
+			(uuid "e4dd2d3f-1656-4327-8803-6e1aee00b32a")
 		)
 		(pin "11"
-			(uuid "2b213da2-ad2b-47ca-a4a1-554b1fdaab3b")
+			(uuid "2b213da2-ad2b-47ca-a4a1-554b1fdaab3c")
 		)
 		(pin "12"
-			(uuid "b3411a7e-7182-431c-9ef4-61de00be9a1c")
+			(uuid "b3411a7e-7182-431c-9ef4-61de00be9a1d")
 		)
 		(pin "13"
-			(uuid "ad4aa12a-a049-4d11-a9d7-4376067f9d5b")
+			(uuid "ad4aa12a-a049-4d11-a9d7-4376067f9d5c")
 		)
 		(pin "7"
-			(uuid "1dccc959-0246-4b41-9bd7-198110962a22")
+			(uuid "1dccc959-0246-4b41-9bd7-198110962a23")
 		)
 		(pin "14"
-			(uuid "efc4901b-5fe7-452c-93bb-2a20742997da")
+			(uuid "efc4901b-5fe7-452c-93bb-2a20742997db")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -9153,46 +9193,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "2be0ed06-2004-47fb-a7d5-2fe320598649")
+			(uuid "2be0ed06-2004-47fb-a7d5-2fe32059864b")
 		)
 		(pin "2"
-			(uuid "e64111e6-1e7e-48de-bdde-8a69ca519148")
+			(uuid "e64111e6-1e7e-48de-bdde-8a69ca51914a")
 		)
 		(pin "3"
-			(uuid "e6f6b4c7-2198-4e3f-b83b-bfaf86ca7f35")
+			(uuid "e6f6b4c7-2198-4e3f-b83b-bfaf86ca7f37")
 		)
 		(pin "4"
-			(uuid "8606163b-efc9-4c1b-8978-0c30abd92361")
+			(uuid "8606163b-efc9-4c1b-8978-0c30abd92363")
 		)
 		(pin "5"
-			(uuid "199811e3-d3c7-4b66-828d-22ae8195f7df")
+			(uuid "199811e3-d3c7-4b66-828d-22ae8195f7e1")
 		)
 		(pin "6"
-			(uuid "788d834f-bc53-4868-885a-c289d3f89757")
+			(uuid "788d834f-bc53-4868-885a-c289d3f89759")
 		)
 		(pin "8"
-			(uuid "df90ec4b-8d64-4435-8601-a00838bbb04e")
+			(uuid "df90ec4b-8d64-4435-8601-a00838bbb050")
 		)
 		(pin "9"
-			(uuid "5a435da7-cb74-4d1a-8c49-69880a03b150")
+			(uuid "5a435da7-cb74-4d1a-8c49-69880a03b152")
 		)
 		(pin "10"
-			(uuid "e4dd2d3f-1656-4327-8803-6e1aee00b329")
+			(uuid "e4dd2d3f-1656-4327-8803-6e1aee00b32b")
 		)
 		(pin "11"
-			(uuid "2b213da2-ad2b-47ca-a4a1-554b1fdaab3b")
+			(uuid "2b213da2-ad2b-47ca-a4a1-554b1fdaab3d")
 		)
 		(pin "12"
-			(uuid "b3411a7e-7182-431c-9ef4-61de00be9a1c")
+			(uuid "b3411a7e-7182-431c-9ef4-61de00be9a1e")
 		)
 		(pin "13"
-			(uuid "ad4aa12a-a049-4d11-a9d7-4376067f9d5b")
+			(uuid "ad4aa12a-a049-4d11-a9d7-4376067f9d5d")
 		)
 		(pin "7"
-			(uuid "1dccc959-0246-4b41-9bd7-198110962a22")
+			(uuid "1dccc959-0246-4b41-9bd7-198110962a24")
 		)
 		(pin "14"
-			(uuid "efc4901b-5fe7-452c-93bb-2a20742997da")
+			(uuid "efc4901b-5fe7-452c-93bb-2a20742997dc")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -9269,46 +9309,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "45685f08-3413-4b36-a444-a3b0d2f26d30")
+			(uuid "45685f08-3413-4b36-a444-a3b0d2f26d31")
 		)
 		(pin "3"
-			(uuid "bba2a327-99a7-4988-b9e5-6a9209a80032")
+			(uuid "bba2a327-99a7-4988-b9e5-6a9209a80033")
 		)
 		(pin "4"
-			(uuid "543009fd-714d-4ad8-9127-f9d41466c3ab")
+			(uuid "543009fd-714d-4ad8-9127-f9d41466c3ac")
 		)
 		(pin "5"
-			(uuid "a16b233e-013d-4589-996d-fd35e6c42b24")
+			(uuid "a16b233e-013d-4589-996d-fd35e6c42b25")
 		)
 		(pin "6"
-			(uuid "4223e923-efbb-4361-a90e-28b15a3291e4")
+			(uuid "4223e923-efbb-4361-a90e-28b15a3291e5")
 		)
 		(pin "8"
-			(uuid "24b41f3d-723c-4c86-8003-d736be1fbf11")
+			(uuid "24b41f3d-723c-4c86-8003-d736be1fbf12")
 		)
 		(pin "9"
-			(uuid "06dbd805-8d6e-4a26-9b6e-0819199b97e0")
+			(uuid "06dbd805-8d6e-4a26-9b6e-0819199b97e1")
 		)
 		(pin "10"
-			(uuid "75f2a9e1-3e64-4cbf-9204-187e449a8300")
+			(uuid "75f2a9e1-3e64-4cbf-9204-187e449a8301")
 		)
 		(pin "11"
-			(uuid "8f2a1968-62b0-467f-902a-f580bcc871d1")
+			(uuid "8f2a1968-62b0-467f-902a-f580bcc871d2")
 		)
 		(pin "12"
-			(uuid "3d591b36-b143-434e-bd8c-c835bcf9324a")
+			(uuid "3d591b36-b143-434e-bd8c-c835bcf9324b")
 		)
 		(pin "13"
-			(uuid "f050a961-cbb7-4cfa-b458-18fa155ce6fe")
+			(uuid "f050a961-cbb7-4cfa-b458-18fa155ce6ff")
 		)
 		(pin "7"
-			(uuid "d60da781-8298-40dc-bed5-3c955aec8ebc")
+			(uuid "d60da781-8298-40dc-bed5-3c955aec8ebd")
 		)
 		(pin "14"
-			(uuid "f9962b50-1e07-4fe1-9476-3a370de507ec")
+			(uuid "f9962b50-1e07-4fe1-9476-3a370de507ed")
 		)
 		(pin "1"
-			(uuid "12b00bb5-af39-4f0c-a428-db42c7cd23a6")
+			(uuid "12b00bb5-af39-4f0c-a428-db42c7cd23a7")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -9385,46 +9425,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "2be0ed06-2004-47fb-a7d5-2fe320598649")
+			(uuid "2be0ed06-2004-47fb-a7d5-2fe32059864c")
 		)
 		(pin "2"
-			(uuid "e64111e6-1e7e-48de-bdde-8a69ca519148")
+			(uuid "e64111e6-1e7e-48de-bdde-8a69ca51914b")
 		)
 		(pin "3"
-			(uuid "e6f6b4c7-2198-4e3f-b83b-bfaf86ca7f35")
+			(uuid "e6f6b4c7-2198-4e3f-b83b-bfaf86ca7f38")
 		)
 		(pin "4"
-			(uuid "8606163b-efc9-4c1b-8978-0c30abd92361")
+			(uuid "8606163b-efc9-4c1b-8978-0c30abd92364")
 		)
 		(pin "5"
-			(uuid "199811e3-d3c7-4b66-828d-22ae8195f7df")
+			(uuid "199811e3-d3c7-4b66-828d-22ae8195f7e2")
 		)
 		(pin "6"
-			(uuid "788d834f-bc53-4868-885a-c289d3f89757")
+			(uuid "788d834f-bc53-4868-885a-c289d3f8975a")
 		)
 		(pin "8"
-			(uuid "df90ec4b-8d64-4435-8601-a00838bbb04e")
+			(uuid "df90ec4b-8d64-4435-8601-a00838bbb051")
 		)
 		(pin "9"
-			(uuid "5a435da7-cb74-4d1a-8c49-69880a03b150")
+			(uuid "5a435da7-cb74-4d1a-8c49-69880a03b153")
 		)
 		(pin "10"
-			(uuid "e4dd2d3f-1656-4327-8803-6e1aee00b329")
+			(uuid "e4dd2d3f-1656-4327-8803-6e1aee00b32c")
 		)
 		(pin "11"
-			(uuid "2b213da2-ad2b-47ca-a4a1-554b1fdaab3b")
+			(uuid "2b213da2-ad2b-47ca-a4a1-554b1fdaab3e")
 		)
 		(pin "12"
-			(uuid "b3411a7e-7182-431c-9ef4-61de00be9a1c")
+			(uuid "b3411a7e-7182-431c-9ef4-61de00be9a1f")
 		)
 		(pin "13"
-			(uuid "ad4aa12a-a049-4d11-a9d7-4376067f9d5b")
+			(uuid "ad4aa12a-a049-4d11-a9d7-4376067f9d5e")
 		)
 		(pin "7"
-			(uuid "1dccc959-0246-4b41-9bd7-198110962a22")
+			(uuid "1dccc959-0246-4b41-9bd7-198110962a25")
 		)
 		(pin "14"
-			(uuid "efc4901b-5fe7-452c-93bb-2a20742997da")
+			(uuid "efc4901b-5fe7-452c-93bb-2a20742997dd")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -9469,7 +9509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 143.002 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -9630,7 +9670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 89.662 228.6 90)
 			(hide yes)
 			(show_name no)
@@ -9712,7 +9752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 173.6852 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9794,7 +9834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 40.132 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -9999,46 +10039,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "d7fbe17f-bad6-4bb6-8c81-c903d7196fdb")
+			(uuid "d7fbe17f-bad6-4bb6-8c81-c903d7196fdc")
 		)
 		(pin "2"
-			(uuid "d8c3da86-7101-4e6a-8a71-f75dde8676dd")
+			(uuid "d8c3da86-7101-4e6a-8a71-f75dde8676de")
 		)
 		(pin "11"
-			(uuid "76571dc2-d90e-4c95-a144-0a79e1dba189")
+			(uuid "76571dc2-d90e-4c95-a144-0a79e1dba18a")
 		)
 		(pin "12"
-			(uuid "2264c039-91fb-4158-8269-b2f88fce2a77")
+			(uuid "2264c039-91fb-4158-8269-b2f88fce2a78")
 		)
 		(pin "13"
-			(uuid "55818d93-0a86-4c9c-90ac-2a29cb50c1e2")
+			(uuid "55818d93-0a86-4c9c-90ac-2a29cb50c1e3")
 		)
 		(pin "8"
-			(uuid "7c908d30-55d5-4896-abe3-3b607fa86d12")
+			(uuid "7c908d30-55d5-4896-abe3-3b607fa86d13")
 		)
 		(pin "9"
-			(uuid "aa813311-7b9a-45a8-95d5-5187683c58f2")
+			(uuid "aa813311-7b9a-45a8-95d5-5187683c58f3")
 		)
 		(pin "10"
-			(uuid "5929caf4-2b9c-44bf-848d-6f8c6af6cbc3")
+			(uuid "5929caf4-2b9c-44bf-848d-6f8c6af6cbc4")
 		)
 		(pin "1"
-			(uuid "be610be2-e134-4502-a197-c8a7c4e27c94")
+			(uuid "be610be2-e134-4502-a197-c8a7c4e27c95")
 		)
 		(pin "4"
-			(uuid "ea1e2654-b308-4c83-a7e4-a70f6724bb71")
+			(uuid "ea1e2654-b308-4c83-a7e4-a70f6724bb72")
 		)
 		(pin "5"
-			(uuid "445544cb-2d1a-42db-9d95-4a66de329e1e")
+			(uuid "445544cb-2d1a-42db-9d95-4a66de329e1f")
 		)
 		(pin "6"
-			(uuid "2b2fdb34-d7ea-48be-9261-efd87fd55fb7")
+			(uuid "2b2fdb34-d7ea-48be-9261-efd87fd55fb8")
 		)
 		(pin "7"
-			(uuid "ae1824fc-c5f1-41e2-bf1c-87e3c77ed860")
+			(uuid "ae1824fc-c5f1-41e2-bf1c-87e3c77ed861")
 		)
 		(pin "14"
-			(uuid "196acfb8-2338-4a9f-9f49-04a7e609d780")
+			(uuid "196acfb8-2338-4a9f-9f49-04a7e609d781")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -10081,7 +10121,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 170.18 169.2148 0)
 			(hide yes)
 			(show_name no)
@@ -10163,7 +10203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 66.802 209.55 90)
 			(hide yes)
 			(show_name no)
@@ -10243,7 +10283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 99.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10393,46 +10433,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "45685f08-3413-4b36-a444-a3b0d2f26d30")
+			(uuid "45685f08-3413-4b36-a444-a3b0d2f26d32")
 		)
 		(pin "3"
-			(uuid "bba2a327-99a7-4988-b9e5-6a9209a80032")
+			(uuid "bba2a327-99a7-4988-b9e5-6a9209a80034")
 		)
 		(pin "4"
-			(uuid "543009fd-714d-4ad8-9127-f9d41466c3ab")
+			(uuid "543009fd-714d-4ad8-9127-f9d41466c3ad")
 		)
 		(pin "5"
-			(uuid "a16b233e-013d-4589-996d-fd35e6c42b24")
+			(uuid "a16b233e-013d-4589-996d-fd35e6c42b26")
 		)
 		(pin "6"
-			(uuid "4223e923-efbb-4361-a90e-28b15a3291e4")
+			(uuid "4223e923-efbb-4361-a90e-28b15a3291e6")
 		)
 		(pin "8"
-			(uuid "24b41f3d-723c-4c86-8003-d736be1fbf11")
+			(uuid "24b41f3d-723c-4c86-8003-d736be1fbf13")
 		)
 		(pin "9"
-			(uuid "06dbd805-8d6e-4a26-9b6e-0819199b97e0")
+			(uuid "06dbd805-8d6e-4a26-9b6e-0819199b97e2")
 		)
 		(pin "10"
-			(uuid "75f2a9e1-3e64-4cbf-9204-187e449a8300")
+			(uuid "75f2a9e1-3e64-4cbf-9204-187e449a8302")
 		)
 		(pin "11"
-			(uuid "8f2a1968-62b0-467f-902a-f580bcc871d1")
+			(uuid "8f2a1968-62b0-467f-902a-f580bcc871d3")
 		)
 		(pin "12"
-			(uuid "3d591b36-b143-434e-bd8c-c835bcf9324a")
+			(uuid "3d591b36-b143-434e-bd8c-c835bcf9324c")
 		)
 		(pin "13"
-			(uuid "f050a961-cbb7-4cfa-b458-18fa155ce6fe")
+			(uuid "f050a961-cbb7-4cfa-b458-18fa155ce700")
 		)
 		(pin "7"
-			(uuid "d60da781-8298-40dc-bed5-3c955aec8ebc")
+			(uuid "d60da781-8298-40dc-bed5-3c955aec8ebe")
 		)
 		(pin "14"
-			(uuid "f9962b50-1e07-4fe1-9476-3a370de507ec")
+			(uuid "f9962b50-1e07-4fe1-9476-3a370de507ee")
 		)
 		(pin "1"
-			(uuid "12b00bb5-af39-4f0c-a428-db42c7cd23a6")
+			(uuid "12b00bb5-af39-4f0c-a428-db42c7cd23a8")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -10703,46 +10743,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "fde2a229-2f5a-487f-af46-70c0c56bf96e")
+			(uuid "fde2a229-2f5a-487f-af46-70c0c56bf971")
 		)
 		(pin "5"
-			(uuid "8763c575-ab5a-43bd-879c-c4fae78f1063")
+			(uuid "8763c575-ab5a-43bd-879c-c4fae78f1066")
 		)
 		(pin "6"
-			(uuid "e2404bb7-23e4-465c-9a76-a3cb6ab7ae06")
+			(uuid "e2404bb7-23e4-465c-9a76-a3cb6ab7ae09")
 		)
 		(pin "8"
-			(uuid "9b87381b-e96d-405a-8604-82279f073e96")
+			(uuid "9b87381b-e96d-405a-8604-82279f073e99")
 		)
 		(pin "9"
-			(uuid "d08bd350-2aa1-452a-bc1b-24f23eb42bff")
+			(uuid "d08bd350-2aa1-452a-bc1b-24f23eb42c02")
 		)
 		(pin "10"
-			(uuid "21e5bf3b-156e-4b81-b864-a974f1af11b5")
+			(uuid "21e5bf3b-156e-4b81-b864-a974f1af11b8")
 		)
 		(pin "11"
-			(uuid "60993050-9111-4c68-b599-561837b879ca")
+			(uuid "60993050-9111-4c68-b599-561837b879cd")
 		)
 		(pin "12"
-			(uuid "e7e30333-5dd2-4bfc-bb02-7461c32b7270")
+			(uuid "e7e30333-5dd2-4bfc-bb02-7461c32b7273")
 		)
 		(pin "13"
-			(uuid "7366c90d-cacf-4183-b301-f835aaffe89a")
+			(uuid "7366c90d-cacf-4183-b301-f835aaffe89d")
 		)
 		(pin "7"
-			(uuid "06adb784-95c6-47f3-bd0b-7bf7229a378f")
+			(uuid "06adb784-95c6-47f3-bd0b-7bf7229a3792")
 		)
 		(pin "14"
-			(uuid "4556c288-d377-4e57-afe6-85619a307fb4")
+			(uuid "4556c288-d377-4e57-afe6-85619a307fb7")
 		)
 		(pin "1"
-			(uuid "e4521ac6-f2bd-48fb-aaff-30348d9e8586")
+			(uuid "e4521ac6-f2bd-48fb-aaff-30348d9e8589")
 		)
 		(pin "2"
-			(uuid "04c15b4a-d636-40ad-aa34-78661ffd2264")
+			(uuid "04c15b4a-d636-40ad-aa34-78661ffd2267")
 		)
 		(pin "3"
-			(uuid "7d733858-d7e7-42f3-96d5-85a5b05be198")
+			(uuid "7d733858-d7e7-42f3-96d5-85a5b05be19b")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -10863,7 +10903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 92.71 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11013,46 +11053,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa8902d2-0aa2-4a14-8200-4c78753c5fec")
+			(uuid "aa8902d2-0aa2-4a14-8200-4c78753c5fed")
 		)
 		(pin "2"
-			(uuid "fc918915-223e-4c11-b0ae-84527bdca4fe")
+			(uuid "fc918915-223e-4c11-b0ae-84527bdca4ff")
 		)
 		(pin "3"
-			(uuid "352f3c92-197f-4ea6-8aee-7ae261433537")
+			(uuid "352f3c92-197f-4ea6-8aee-7ae261433538")
 		)
 		(pin "4"
-			(uuid "c1450572-cb23-4c6c-ba10-e8787c1c4bd0")
+			(uuid "c1450572-cb23-4c6c-ba10-e8787c1c4bd1")
 		)
 		(pin "5"
-			(uuid "c3e82c93-262e-4580-af0a-f62aadce7178")
+			(uuid "c3e82c93-262e-4580-af0a-f62aadce7179")
 		)
 		(pin "6"
-			(uuid "5bfefb92-e8c9-459b-8478-c9c132728c5b")
+			(uuid "5bfefb92-e8c9-459b-8478-c9c132728c5c")
 		)
 		(pin "8"
-			(uuid "481da014-5ca1-407e-a21d-6b1293461072")
+			(uuid "481da014-5ca1-407e-a21d-6b1293461073")
 		)
 		(pin "9"
-			(uuid "872e9a12-34cf-43eb-994a-8aae3597da76")
+			(uuid "872e9a12-34cf-43eb-994a-8aae3597da77")
 		)
 		(pin "10"
-			(uuid "898dd999-b9ae-489c-9ed8-06e497f9377c")
+			(uuid "898dd999-b9ae-489c-9ed8-06e497f9377d")
 		)
 		(pin "11"
-			(uuid "34b26ff6-633d-4a25-aa25-929348370dfa")
+			(uuid "34b26ff6-633d-4a25-aa25-929348370dfb")
 		)
 		(pin "12"
-			(uuid "7c004d52-c04e-4bef-b772-fdad12a32a3f")
+			(uuid "7c004d52-c04e-4bef-b772-fdad12a32a40")
 		)
 		(pin "13"
-			(uuid "cbfcbb30-db95-4157-bc0e-f3b62cf05f5c")
+			(uuid "cbfcbb30-db95-4157-bc0e-f3b62cf05f5d")
 		)
 		(pin "7"
-			(uuid "c9009c3f-d042-4d1f-8047-fbb62958b9c5")
+			(uuid "c9009c3f-d042-4d1f-8047-fbb62958b9c6")
 		)
 		(pin "14"
-			(uuid "23e8efda-4cfd-4425-b2c7-09a7e2d253cb")
+			(uuid "23e8efda-4cfd-4425-b2c7-09a7e2d253cc")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -11207,46 +11247,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "45685f08-3413-4b36-a444-a3b0d2f26d30")
+			(uuid "45685f08-3413-4b36-a444-a3b0d2f26d33")
 		)
 		(pin "3"
-			(uuid "bba2a327-99a7-4988-b9e5-6a9209a80032")
+			(uuid "bba2a327-99a7-4988-b9e5-6a9209a80035")
 		)
 		(pin "4"
-			(uuid "543009fd-714d-4ad8-9127-f9d41466c3ab")
+			(uuid "543009fd-714d-4ad8-9127-f9d41466c3ae")
 		)
 		(pin "5"
-			(uuid "a16b233e-013d-4589-996d-fd35e6c42b24")
+			(uuid "a16b233e-013d-4589-996d-fd35e6c42b27")
 		)
 		(pin "6"
-			(uuid "4223e923-efbb-4361-a90e-28b15a3291e4")
+			(uuid "4223e923-efbb-4361-a90e-28b15a3291e7")
 		)
 		(pin "8"
-			(uuid "24b41f3d-723c-4c86-8003-d736be1fbf11")
+			(uuid "24b41f3d-723c-4c86-8003-d736be1fbf14")
 		)
 		(pin "9"
-			(uuid "06dbd805-8d6e-4a26-9b6e-0819199b97e0")
+			(uuid "06dbd805-8d6e-4a26-9b6e-0819199b97e3")
 		)
 		(pin "10"
-			(uuid "75f2a9e1-3e64-4cbf-9204-187e449a8300")
+			(uuid "75f2a9e1-3e64-4cbf-9204-187e449a8303")
 		)
 		(pin "11"
-			(uuid "8f2a1968-62b0-467f-902a-f580bcc871d1")
+			(uuid "8f2a1968-62b0-467f-902a-f580bcc871d4")
 		)
 		(pin "12"
-			(uuid "3d591b36-b143-434e-bd8c-c835bcf9324a")
+			(uuid "3d591b36-b143-434e-bd8c-c835bcf9324d")
 		)
 		(pin "13"
-			(uuid "f050a961-cbb7-4cfa-b458-18fa155ce6fe")
+			(uuid "f050a961-cbb7-4cfa-b458-18fa155ce701")
 		)
 		(pin "7"
-			(uuid "d60da781-8298-40dc-bed5-3c955aec8ebc")
+			(uuid "d60da781-8298-40dc-bed5-3c955aec8ebf")
 		)
 		(pin "14"
-			(uuid "f9962b50-1e07-4fe1-9476-3a370de507ec")
+			(uuid "f9962b50-1e07-4fe1-9476-3a370de507ef")
 		)
 		(pin "1"
-			(uuid "12b00bb5-af39-4f0c-a428-db42c7cd23a6")
+			(uuid "12b00bb5-af39-4f0c-a428-db42c7cd23a9")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -11289,7 +11329,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 74.93 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -11439,46 +11479,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa8902d2-0aa2-4a14-8200-4c78753c5fec")
+			(uuid "aa8902d2-0aa2-4a14-8200-4c78753c5fee")
 		)
 		(pin "2"
-			(uuid "fc918915-223e-4c11-b0ae-84527bdca4fe")
+			(uuid "fc918915-223e-4c11-b0ae-84527bdca500")
 		)
 		(pin "3"
-			(uuid "352f3c92-197f-4ea6-8aee-7ae261433537")
+			(uuid "352f3c92-197f-4ea6-8aee-7ae261433539")
 		)
 		(pin "4"
-			(uuid "c1450572-cb23-4c6c-ba10-e8787c1c4bd0")
+			(uuid "c1450572-cb23-4c6c-ba10-e8787c1c4bd2")
 		)
 		(pin "5"
-			(uuid "c3e82c93-262e-4580-af0a-f62aadce7178")
+			(uuid "c3e82c93-262e-4580-af0a-f62aadce717a")
 		)
 		(pin "6"
-			(uuid "5bfefb92-e8c9-459b-8478-c9c132728c5b")
+			(uuid "5bfefb92-e8c9-459b-8478-c9c132728c5d")
 		)
 		(pin "8"
-			(uuid "481da014-5ca1-407e-a21d-6b1293461072")
+			(uuid "481da014-5ca1-407e-a21d-6b1293461074")
 		)
 		(pin "9"
-			(uuid "872e9a12-34cf-43eb-994a-8aae3597da76")
+			(uuid "872e9a12-34cf-43eb-994a-8aae3597da78")
 		)
 		(pin "10"
-			(uuid "898dd999-b9ae-489c-9ed8-06e497f9377c")
+			(uuid "898dd999-b9ae-489c-9ed8-06e497f9377e")
 		)
 		(pin "11"
-			(uuid "34b26ff6-633d-4a25-aa25-929348370dfa")
+			(uuid "34b26ff6-633d-4a25-aa25-929348370dfc")
 		)
 		(pin "12"
-			(uuid "7c004d52-c04e-4bef-b772-fdad12a32a3f")
+			(uuid "7c004d52-c04e-4bef-b772-fdad12a32a41")
 		)
 		(pin "13"
-			(uuid "cbfcbb30-db95-4157-bc0e-f3b62cf05f5c")
+			(uuid "cbfcbb30-db95-4157-bc0e-f3b62cf05f5e")
 		)
 		(pin "7"
-			(uuid "c9009c3f-d042-4d1f-8047-fbb62958b9c5")
+			(uuid "c9009c3f-d042-4d1f-8047-fbb62958b9c7")
 		)
 		(pin "14"
-			(uuid "23e8efda-4cfd-4425-b2c7-09a7e2d253cb")
+			(uuid "23e8efda-4cfd-4425-b2c7-09a7e2d253cd")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -11715,7 +11755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.01 226.568 90)
 			(hide yes)
 			(show_name no)
@@ -12061,46 +12101,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa8902d2-0aa2-4a14-8200-4c78753c5fec")
+			(uuid "aa8902d2-0aa2-4a14-8200-4c78753c5fef")
 		)
 		(pin "2"
-			(uuid "fc918915-223e-4c11-b0ae-84527bdca4fe")
+			(uuid "fc918915-223e-4c11-b0ae-84527bdca501")
 		)
 		(pin "3"
-			(uuid "352f3c92-197f-4ea6-8aee-7ae261433537")
+			(uuid "352f3c92-197f-4ea6-8aee-7ae26143353a")
 		)
 		(pin "4"
-			(uuid "c1450572-cb23-4c6c-ba10-e8787c1c4bd0")
+			(uuid "c1450572-cb23-4c6c-ba10-e8787c1c4bd3")
 		)
 		(pin "5"
-			(uuid "c3e82c93-262e-4580-af0a-f62aadce7178")
+			(uuid "c3e82c93-262e-4580-af0a-f62aadce717b")
 		)
 		(pin "6"
-			(uuid "5bfefb92-e8c9-459b-8478-c9c132728c5b")
+			(uuid "5bfefb92-e8c9-459b-8478-c9c132728c5e")
 		)
 		(pin "8"
-			(uuid "481da014-5ca1-407e-a21d-6b1293461072")
+			(uuid "481da014-5ca1-407e-a21d-6b1293461075")
 		)
 		(pin "9"
-			(uuid "872e9a12-34cf-43eb-994a-8aae3597da76")
+			(uuid "872e9a12-34cf-43eb-994a-8aae3597da79")
 		)
 		(pin "10"
-			(uuid "898dd999-b9ae-489c-9ed8-06e497f9377c")
+			(uuid "898dd999-b9ae-489c-9ed8-06e497f9377f")
 		)
 		(pin "11"
-			(uuid "34b26ff6-633d-4a25-aa25-929348370dfa")
+			(uuid "34b26ff6-633d-4a25-aa25-929348370dfd")
 		)
 		(pin "12"
-			(uuid "7c004d52-c04e-4bef-b772-fdad12a32a3f")
+			(uuid "7c004d52-c04e-4bef-b772-fdad12a32a42")
 		)
 		(pin "13"
-			(uuid "cbfcbb30-db95-4157-bc0e-f3b62cf05f5c")
+			(uuid "cbfcbb30-db95-4157-bc0e-f3b62cf05f5f")
 		)
 		(pin "7"
-			(uuid "c9009c3f-d042-4d1f-8047-fbb62958b9c5")
+			(uuid "c9009c3f-d042-4d1f-8047-fbb62958b9c8")
 		)
 		(pin "14"
-			(uuid "23e8efda-4cfd-4425-b2c7-09a7e2d253cb")
+			(uuid "23e8efda-4cfd-4425-b2c7-09a7e2d253ce")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -12177,46 +12217,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "1396e481-1f98-46ea-b0c8-2274b0fe2956")
+			(uuid "1396e481-1f98-46ea-b0c8-2274b0fe2957")
 		)
 		(pin "2"
-			(uuid "2f3a5450-5e4b-47f7-aeb7-fbb32d2e3770")
+			(uuid "2f3a5450-5e4b-47f7-aeb7-fbb32d2e3771")
 		)
 		(pin "3"
-			(uuid "d1b8f0fc-6146-44d8-a6ad-b8362edb5b92")
+			(uuid "d1b8f0fc-6146-44d8-a6ad-b8362edb5b93")
 		)
 		(pin "4"
-			(uuid "ebd8691e-a8ec-43d3-84e9-11ff03b9d2f5")
+			(uuid "ebd8691e-a8ec-43d3-84e9-11ff03b9d2f6")
 		)
 		(pin "5"
-			(uuid "ab74095b-222c-4001-ac02-aa79a7c9e3ad")
+			(uuid "ab74095b-222c-4001-ac02-aa79a7c9e3ae")
 		)
 		(pin "6"
-			(uuid "1052d737-da34-4ba4-afd3-165a381619df")
+			(uuid "1052d737-da34-4ba4-afd3-165a381619e0")
 		)
 		(pin "8"
-			(uuid "30b95884-16a2-46a9-98cd-7a7f4427eabf")
+			(uuid "30b95884-16a2-46a9-98cd-7a7f4427eac0")
 		)
 		(pin "9"
-			(uuid "c4e50780-d55b-4e56-9cd1-69d28f38df21")
+			(uuid "c4e50780-d55b-4e56-9cd1-69d28f38df22")
 		)
 		(pin "10"
-			(uuid "0ac198ad-5c67-4d86-be61-838e87e4cd17")
+			(uuid "0ac198ad-5c67-4d86-be61-838e87e4cd18")
 		)
 		(pin "11"
-			(uuid "d21a347f-dfa9-4e72-8b88-cf65091d2697")
+			(uuid "d21a347f-dfa9-4e72-8b88-cf65091d2698")
 		)
 		(pin "12"
-			(uuid "57e00065-106e-45f0-8dde-23360bc2c543")
+			(uuid "57e00065-106e-45f0-8dde-23360bc2c544")
 		)
 		(pin "13"
-			(uuid "cb8696da-7494-4d23-a191-cef46802e5cb")
+			(uuid "cb8696da-7494-4d23-a191-cef46802e5cc")
 		)
 		(pin "7"
-			(uuid "1f590ab3-f3a1-45bc-8584-68b90790c3cc")
+			(uuid "1f590ab3-f3a1-45bc-8584-68b90790c3cd")
 		)
 		(pin "14"
-			(uuid "6bf18059-3fdf-410c-a22c-be6ddefba3ab")
+			(uuid "6bf18059-3fdf-410c-a22c-be6ddefba3ac")
 		)
 		(instances
 			(project "ClapDetectorPCB"
@@ -12259,7 +12299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 171.45 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12375,7 +12415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 67.31 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12525,46 +12565,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "78dbbc2b-1fbd-4f63-aca2-42d900740251")
+			(uuid "78dbbc2b-1fbd-4f63-aca2-42d900740252")
 		)
 		(pin "14"
-			(uuid "53f26c94-1c2f-4d0d-ae87-7097b0cc6b5d")
+			(uuid "53f26c94-1c2f-4d0d-ae87-7097b0cc6b5e")
 		)
 		(pin "1"
-			(uuid "2dc91e9c-c5b6-4826-af95-d746a43929a6")
+			(uuid "2dc91e9c-c5b6-4826-af95-d746a43929a7")
 		)
 		(pin "2"
-			(uuid "134c4182-1ef6-400f-acfe-ae8055559540")
+			(uuid "134c4182-1ef6-400f-acfe-ae8055559541")
 		)
 		(pin "3"
-			(uuid "6ba25d39-592f-4c2e-9ab2-08788ff28498")
+			(uuid "6ba25d39-592f-4c2e-9ab2-08788ff28499")
 		)
 		(pin "4"
-			(uuid "3f41a8c8-57b5-48bd-a98b-254f7a815cfc")
+			(uuid "3f41a8c8-57b5-48bd-a98b-254f7a815cfd")
 		)
 		(pin "5"
-			(uuid "e48ed89e-fd56-4306-bcb4-79f63b6aafbb")
+			(uuid "e48ed89e-fd56-4306-bcb4-79f63b6aafbc")
 		)
 		(pin "13"
-			(uuid "e8f9da2b-425d-42a9-8650-381f48abe2bd")
+			(uuid "e8f9da2b-425d-42a9-8650-381f48abe2be")
 		)
 		(pin "7"
-			(uuid "c2382283-a45d-450e-bac8-2c732b76970b")
+			(uuid "c2382283-a45d-450e-bac8-2c732b76970c")
 		)
 		(pin "6"
-			(uuid "8cae413c-22c7-460e-8dbb-40829c0ff135")
+			(uuid "8cae413c-22c7-460e-8dbb-40829c0ff136")
 		)
 		(pin "8"
-			(uuid "502afea9-8ec6-47ee-a939-d19ccb2ca48a")
+			(uuid "502afea9-8ec6-47ee-a939-d19ccb2ca48b")
 		)
 		(pin "9"
-			(uuid "2965d9bd-1e0a-4ac1-b5c2-d0f828825866")
+			(uuid "2965d9bd-1e0a-4ac1-b5c2-d0f828825867")
 		)
 		(pin "10"
-			(uuid "c40f71d1-4f4e-410d-948e-2b699f8a4e12")
+			(uuid "c40f71d1-4f4e-410d-948e-2b699f8a4e13")
 		)
 		(pin "11"
-			(uuid "40a32bf0-8e35-47b1-8d88-fc331315bfb3")
+			(uuid "40a32bf0-8e35-47b1-8d88-fc331315bfb4")
 		)
 		(instances
 			(project "ClapDetectorPCB"
