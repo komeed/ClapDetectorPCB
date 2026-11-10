@@ -4004,8 +4004,8 @@
 		)
 	)
 	(rectangle
-		(start 161.925 22.225)
-		(end 277.495 68.58)
+		(start 133.35 102.235)
+		(end 223.52 140.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -4013,11 +4013,11 @@
 		(fill
 			(type none)
 		)
-		(uuid "e8146b5f-8148-4e99-b811-23c608737873")
+		(uuid "36f0e695-1d0f-41fd-b695-fa761d66b500")
 	)
 	(rectangle
-		(start 254.635 93.345)
-		(end 372.11 169.545)
+		(start 133.985 144.145)
+		(end 222.885 193.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -4025,7 +4025,71 @@
 		(fill
 			(type none)
 		)
-		(uuid "fb978c25-c581-4fee-8222-c5579d589993")
+		(uuid "82d64a82-7b18-4202-83d9-6d35f33ffb95")
+	)
+	(rectangle
+		(start 31.75 106.68)
+		(end 132.715 194.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8e78d841-2c55-4d91-a436-dd3ecd93749c")
+	)
+	(rectangle
+		(start 32.385 194.945)
+		(end 124.46 242.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ca581f0a-d2ba-4159-8da5-4fcf7940f168")
+	)
+	(text "M4"
+		(exclude_from_sim no)
+		(at 219.71 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1efbf1e8-2350-4ee6-873d-836755bb1516")
+	)
+	(text "M3"
+		(exclude_from_sim no)
+		(at 220.218 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3cbbb40e-0751-435c-ba80-98f4a1e541b5")
+	)
+	(text "M2"
+		(exclude_from_sim no)
+		(at 34.798 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40054bce-b967-4b75-a60e-cf7271094420")
+	)
+	(text "M1"
+		(exclude_from_sim no)
+		(at 35.052 197.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fba00c2d-bb24-4383-9585-02c4e8498ca0")
 	)
 	(junction
 		(at 129.54 119.38)
@@ -4076,12 +4140,6 @@
 		(uuid "4419fca2-0faf-4f71-9aff-689456295500")
 	)
 	(junction
-		(at 53.34 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49857f66-fc44-4740-b464-3692b46f2b29")
-	)
-	(junction
 		(at 129.54 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4094,6 +4152,12 @@
 		(uuid "64dbfab5-e2a6-45c8-9dda-772c967755c6")
 	)
 	(junction
+		(at 95.25 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "755d5bc9-6ec1-4e62-9ec5-9ae59d4eba1c")
+	)
+	(junction
 		(at 195.58 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4104,6 +4168,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80376758-25db-44e4-a7d4-d70f544c45b6")
+	)
+	(junction
+		(at 53.34 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9827370d-33ea-4366-9bf1-6f1a4911a050")
 	)
 	(junction
 		(at 76.2 119.38)
@@ -4376,16 +4446,6 @@
 			(type default)
 		)
 		(uuid "3071f14a-53a5-46db-9828-cbaf2b0b9d26")
-	)
-	(wire
-		(pts
-			(xy 41.91 217.17) (xy 53.34 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346cd1dc-f9a9-4951-853e-72c0860101ea")
 	)
 	(wire
 		(pts
@@ -4849,16 +4909,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 224.79) (xy 53.34 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c045ed05-80f8-43cb-8966-9ea175734329")
-	)
-	(wire
-		(pts
 			(xy 76.2 119.38) (xy 76.2 121.92)
 		)
 		(stroke
@@ -5049,6 +5099,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 219.71) (xy 95.25 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61ebc0e-ea5b-490b-a1da-c9292d5c9d31")
+	)
+	(wire
+		(pts
 			(xy 88.9 157.48) (xy 85.09 157.48)
 		)
 		(stroke
@@ -5218,6 +5278,88 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05301134-0a71-4456-83e7-a750342e2dc6")
+		(property "Reference" "R9"
+			(at 90.17 214.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 90.17 217.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.852 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84d30a7a-299a-4c6b-b2a6-ebe4a29cc474")
+		)
+		(pin "2"
+			(uuid "ae7ff6a7-dfd0-48c3-8e28-50214e33bd5e")
+		)
+		(instances
+			(project "ClapDetectorPCB"
+				(path "/a9e28604-8006-42a0-85f5-c1dddeb9dfef"
+					(reference "R9")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5931,7 +6073,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 220.98 0)
+		(at 53.34 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5942,7 +6084,7 @@
 		(fields_autoplaced yes)
 		(uuid "17abbb6f-c46c-4edf-9897-58f9148cba2d")
 		(property "Reference" "R1"
-			(at 44.45 219.7099 0)
+			(at 55.88 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5953,7 +6095,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 44.45 222.2499 0)
+			(at 55.88 224.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5964,7 +6106,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 40.132 220.98 90)
+			(at 51.562 223.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5975,7 +6117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 220.98 0)
+			(at 53.34 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5986,7 +6128,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 220.98 0)
+			(at 53.34 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6961,6 +7103,84 @@
 			(project "ClapDetectorPCB"
 				(path "/a9e28604-8006-42a0-85f5-c1dddeb9dfef"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 212.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aeca098-dc4c-41de-9fa3-326f377419a0")
+		(property "Reference" "#PWR019"
+			(at 87.63 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82a03208-6687-4b98-a7fe-93c14e9900be")
+		)
+		(instances
+			(project "ClapDetectorPCB"
+				(path "/a9e28604-8006-42a0-85f5-c1dddeb9dfef"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9713,88 +9933,6 @@
 			(project "ClapDetectorPCB"
 				(path "/a9e28604-8006-42a0-85f5-c1dddeb9dfef"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 172.72 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e681093-5d40-46a7-9c59-2a76bf99476d")
-		(property "Reference" "C9"
-			(at 176.53 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 176.53 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 173.6852 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 172.72 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9864fb5c-4e34-4809-9741-ebd81260ecc7")
-		)
-		(pin "2"
-			(uuid "d69e7160-1afb-4cac-90c1-9d2e9f8b7870")
-		)
-		(instances
-			(project "ClapDetectorPCB"
-				(path "/a9e28604-8006-42a0-85f5-c1dddeb9dfef"
-					(reference "C9")
 					(unit 1)
 				)
 			)
